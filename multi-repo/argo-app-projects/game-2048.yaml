@@ -8,4 +8,5 @@ spec:
   - namespace: game-2048
     server: https://kubernetes.default.svc
   sourceRepos:
-  - git@github.com:aws-containers/ecsdemo-crystal.git
+  #- git@github.com:aws-containers/ecsdemo-crystal.git
+  - git@github.com:codefresh-contrib/helm-sample-app.git

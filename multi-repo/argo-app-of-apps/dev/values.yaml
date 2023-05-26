@@ -52,10 +52,11 @@ spec:
           value: '3'
     game2048:
       createProject: true
-      repoURL: https://github.com/aws-containers/ecsdemo-crystal.git
+      #repoURL: https://github.com/aws-containers/ecsdemo-crystal.git
+      repoURL: https://github.com/codefresh-contrib/helm-sample-app.git
       #repoURL: git@github.com:aws-containers/ecsdemo-crystal.git
       targetRevision: main
-      path: kubernetes/helm/ecsdemo-crystal
+      path: charts/helm-example
       helm:
         parameters:
         - name: replicaCount
