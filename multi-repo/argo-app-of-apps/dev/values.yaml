@@ -50,3 +50,13 @@ spec:
         parameters:
         - name: replicaCount
           value: '3'
+    game2048:
+      createProject: true
+      repoURL: https://github.com/aws-containers/ecsdemo-crystal.git
+      #repoURL: git@github.com:aws-containers/ecsdemo-crystal.git
+      targetRevision: main
+      path: kubernetes/helm/ecsdemo-crystal
+      helm:
+        parameters:
+        - name: replicaCount
+          value: '3'

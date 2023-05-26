@@ -1,0 +1,11 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: game-2048
+  namespace: argocd
+spec:
+  destinations:
+  - namespace: game-2048
+    server: https://kubernetes.default.svc
+  sourceRepos:
+  - git@github.com:aws-containers/ecsdemo-crystal.git
