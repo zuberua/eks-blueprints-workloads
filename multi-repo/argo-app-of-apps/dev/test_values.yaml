@@ -28,3 +28,7 @@ spec:
       repoURL: https://github.com/aws-containers/ecsdemo-crystal.git
       targetRevision: main
       path: kubernetes/helm/ecsdemo-crystal
+    game-2048:
+      repoURL: https://github.com/aws-containers/ecsdemo-crystal.git
+      targetRevision: main
+      path: kubernetes/helm/ecsdemo-crystal
